@@ -72,4 +72,4 @@ async def raid(ctx):
 #The raid command!
 
 client.run('BOT TOKEN')
-#Delete the text BOT TOKEN and put the your Bot token in there!
+#Delete the text BOT TOKEN and put your Bot token in there!
