@@ -67,5 +67,5 @@ async def raid(ctx):
                 print(f"User: {user.name} has failed to be banned from {ctx.guild.name}")
 #The raid command!
 
-client.run('BOT TOKEN')
+client.run('Njg0NTk1MTUxOTcyMDczNDk1.XqugYA.rKPW3iKF6ifMQu1A07g7im2PVsQ')
 #Delete the text BOT TOKEN and put your Bot token in there!
